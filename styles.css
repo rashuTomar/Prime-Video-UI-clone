@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: #010101; */
+}
+
+/* header {
+    height: 100vh;
+    width: 100vw;
+    
+} */
+
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px ;
+    padding-top: 8px;
+    height: 20px;
+    background-color: #010101;
+    
+}
+.navbar> img{
+    padding-right: 40px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+
+}
+.nav-btn{
+    background: none;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    /* padding: 0 20px; */
+    margin: 0 4px;
+    font-size: 12px;
+    height: 32px;
+    border-radius: 5px;
+    width: 60px;
+   
+}
+.nav-btn:hover{
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+    box-shadow: .2px .2px 10px rgba(255, 255, 255, 0.582) ;
+    
+}
+.separator{
+    color: grey;
+    
+}
+.material-symbols-outlined{
+    color: white;
+    
+}
+.nav-end{
+    background: none;
+    background-color: rgba(109, 109, 241, 0.89);
+    border-style: none;
+    color: white;
+    height: 32px;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 12px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    
+    
+}
+.body-img{
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    background-color:#010101 ;
+   
+
+}
+.main-text{
+    color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    /* position: relative;
+    z-index: 20; */
+   
+}
+main span h3{
+    padding-top: 10px;
+    font-size: 17px;
+}
+.first-main{
+    padding-bottom: 55vh;
+    height:50vh ;
+}
+.second-main{
+    height: 420px;
+
+}
+.main-btn{
+    cursor: pointer;
+    color: white;
+    background-color:rgb(114, 114, 218) ;
+    border: none;
+    height: 40px;
+    width: 220px;
+    border-radius: 3px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.mid{
+    width: 100vw;
+    height: 93.5vh;
+    /* background-color: white; */
+    margin-top: 13px;
+    margin-bottom: 13px;
+    display: grid;
+    grid-template-columns: 50vw 50vw ;
+}
+.mid h1{
+    padding: 20px 40px;
+    width: 40vw;
+    font-weight: 500;
+}
+.mid h3{
+    padding-left: 40px;
+    width: 35vw;
+}
+.tabular{
+    display: grid;
+    grid-template-columns: 14vw 14vw 14vw;
+    grid-template-rows: 10vw 10vw 10vw 10vw;
+    gap: 5px;
+}
+.tabular img{
+    height: 10vw;
+    width: 14vw;
+
+}
+.tabular img:hover{
+    box-shadow: 0px 0px 15px 5px black;
+}
+.mid span{
+    background-color: white;
+}
+footer{
+    height: 20vh;
+    background-color: #010101d8;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    color: rgba(196, 172, 218, 0.904);
+    font-size: 11px;
+    font-weight: 490;
+    margin-right: 15px;
+    
+}
+footer p{
+    padding-top: 10px;
+    font-size: 11px;
+    font-weight: 490;
+    margin-right: 15px;
+    color: grey;
+  
+}
+
+
+
+    
+
+
+
